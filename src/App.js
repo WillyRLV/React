@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+//* desde la version 17 esta linea no hace falyta
+//import React FROM "react"
 
-function App() {
+const PrimerComponente = () =>{
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-header">
+      <h1>Hola mundo</h1>
+      <div>
+        <h4>
+Hola
+        </h4>
+      </div>
     </div>
-  );
+  )
+
 }
 
-export default App;
+export default PrimerComponente();

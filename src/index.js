@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//para impórtar bootstrap
+// import "bootstrap/dist/css/bootstrap.min.css"
 import './index.css';
 import PrimerComponente from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PrimerComponente />
+    {/* <PrimerComponente /> */}
+    <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );

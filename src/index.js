@@ -10,8 +10,10 @@ import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
+
     {/* <PrimerComponente /> */}
-    <Home/>
+    <Home />
+    {/* <PrimerComponente/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

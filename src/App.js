@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from "./Footer";
 import FormRegister from "./Form";
 import FormUser from "./FormUser";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import "./index.css";
 
 

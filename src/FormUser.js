@@ -1,5 +1,6 @@
 import { useState } from "react";
-import {TextField, Button} from "@mui/material";
+import { Components } from "react";
+import {TextField, Button,state } from "@mui/material";
 
 const FormUser = () => {
 
@@ -47,7 +48,7 @@ const handleTextFieldValues = e =>{
         <h5>Contraseña {valorTextField.pass} </h5>
 
         <p>
-          <TextField type="text" onChange={handleTextFieldValues} name="name" variant="outlined"   label="Ingrese su nombre" required />
+          <TextField type="text"     onChange={handleTextFieldValues} name="name" variant="outlined"   label="Ingrese su nombre" required />
         </p>
 
         <p>

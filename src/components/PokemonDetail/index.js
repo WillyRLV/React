@@ -97,20 +97,6 @@ const PokemonDetail = (props) => {
         </DialogContent>
       </Dialog>
     </div>
-    // <div>
-    //   <Button onClick={handleOpenDialog} variant="contained" color="primary">
-    //     Detalle del pokemon
-    //   </Button>
-    //   <Dialog open={abrir} onClose={handleOpenDialog}>
-    //     <DialogContent>
-    //       <h2>Pokem on {props.nombre}</h2>
-    //       <img
-    //       src={pokemonData.sprites.other["official-artwork"].front_default}/>
-
-    //       <Button onClick={handleOpenDialog}>Cerrar</Button>
-    //     </DialogContent>
-    //   </Dialog>
-    // </div>
   );
 };
 

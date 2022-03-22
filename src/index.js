@@ -6,13 +6,15 @@ import './index.css';
 import PrimerComponente from './App';
 
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home';
+// import Home from './pages/Home';
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
 
     {/* <PrimerComponente /> */}
-    <Home />
+    <App/>
+    {/* <Home /> */}
     {/* <PrimerComponente/> */}
   </React.StrictMode>,
   document.getElementById('root')
